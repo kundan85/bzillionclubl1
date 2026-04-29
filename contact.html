@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — Bzillion.Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --red: #e8000d; --dark: #0a0a0a; --dark2: #111111; --dark3: #1a1a1a;
+      --gray: #2a2a2a; --white: #ffffff; --text-muted: #999; --yellow: #ffd600;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--dark); color: var(--white); font-family: 'Barlow', sans-serif; font-size: 16px; line-height: 1.8; }
+    header {
+      background: var(--dark2); border-bottom: 3px solid var(--red);
+      padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    }
+    .logo { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: var(--white); text-decoration: none; letter-spacing: 2px; }
+    .logo span { color: var(--red); }
+    nav a { color: #aaa; text-decoration: none; font-size: 14px; margin-left: 20px; }
+    nav a:hover { color: var(--white); }
+    .page-hero {
+      background: linear-gradient(160deg, #1a0000 0%, #0a0a0a 100%);
+      border-bottom: 1px solid var(--gray);
+      padding: 60px 24px 40px; text-align: center;
+    }
+    .page-hero .label { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 4px; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+    .page-hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 6vw, 60px); letter-spacing: 2px; }
+    .page-hero p { color: var(--text-muted); margin-top: 10px; font-size: 14px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    main { max-width: 820px; margin: 0 auto; padding: 60px 24px 80px; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 50px; }
+    @media(max-width:600px){ .contact-grid { grid-template-columns: 1fr; } }
+    .contact-card {
+      background: var(--dark3); border: 1px solid var(--gray); border-radius: 10px;
+      padding: 32px 24px; text-align: center; transition: border-color 0.2s, transform 0.2s;
+    }
+    .contact-card:hover { border-color: var(--red); transform: translateY(-3px); }
+    .contact-card .icon { font-size: 40px; margin-bottom: 16px; }
+    .contact-card h3 { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 20px; letter-spacing: 1px; margin-bottom: 10px; }
+    .contact-card p { color: #aaa; font-size: 14px; margin-bottom: 16px; }
+    .contact-card a.btn {
+      display: inline-block; background: var(--red); color: var(--white);
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 15px;
+      letter-spacing: 1px; text-transform: uppercase; text-decoration: none;
+      padding: 12px 24px; border-radius: 4px; transition: background 0.2s;
+    }
+    .contact-card a.btn:hover { background: #ff1a24; }
+    .contact-card a.link { color: var(--red); text-decoration: none; font-size: 16px; font-weight: 600; }
+    .contact-card a.link:hover { text-decoration: underline; }
+    .divider { border: none; border-top: 1px solid var(--gray); margin: 40px 0; }
+    .faq-preview h2 { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 1px; margin-bottom: 6px; }
+    .faq-preview p { color: #aaa; margin-bottom: 24px; }
+    .topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+    .topic-card {
+      background: var(--dark3); border: 1px solid var(--gray); border-radius: 8px;
+      padding: 18px; display: flex; gap: 12px; align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+    .topic-card:hover { border-color: var(--gray); }
+    .topic-card .t-icon { font-size: 22px; flex-shrink: 0; }
+    .topic-card h4 { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .topic-card p { font-size: 12px; color: #888; margin: 0; }
+    .response-note {
+      background: var(--dark3); border-left: 4px solid var(--yellow); border-radius: 4px;
+      padding: 18px 20px; margin-top: 40px; color: #bbb; font-size: 15px;
+    }
+    .response-note strong { color: var(--yellow); }
+    footer {
+      background: #060606; border-top: 1px solid #1f1f1f;
+      padding: 30px 24px; text-align: center; font-size: 13px; color: #555;
+    }
+    footer a { color: #777; text-decoration: none; margin: 0 10px; }
+    footer a:hover { color: var(--white); }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">Bzillion<span>.</span>Club</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="terms-of-service.html">Terms</a>
+    <a href="refund-policy.html">Refund</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="label">Support</div>
+  <h1>Contact Us</h1>
+  <p>We're here to help. Reach out and our team will get back to you as quickly as possible.</p>
+</div>
+
+<main>
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="icon">✉️</div>
+      <h3>Email Support</h3>
+      <p>Send us an email for any questions, refund requests, or technical issues. This is our primary support channel.</p>
+      <a href="mailto:admin@bzillion.club" class="btn">Send Email</a>
+      <br/><br/>
+      <a href="mailto:admin@bzillion.club" class="link">admin@bzillion.club</a>
+    </div>
+    <div class="contact-card">
+      <div class="icon">🌐</div>
+      <h3>Platform Support</h3>
+      <p>Already a VIP member? Log in to your dashboard and use the Priority Support ticket system for faster assistance.</p>
+      <a href="http://Bzillion.Club" class="btn" target="_blank">Go to Platform</a>
+      <br/><br/>
+      <a href="http://Bzillion.Club" class="link" target="_blank">Bzillion.Club</a>
+    </div>
+  </div>
+
+  <hr class="divider"/>
+
+  <div class="faq-preview">
+    <h2>What Can We Help With?</h2>
+    <p>Here are the most common topics our support team handles:</p>
+    <div class="topic-grid">
+      <div class="topic-card">
+        <div class="t-icon">🔑</div>
+        <div>
+          <h4>Account Access</h4>
+          <p>Login issues, password resets, account activation</p>
+        </div>
+      </div>
+      <div class="topic-card">
+        <div class="t-icon">💳</div>
+        <div>
+          <h4>Billing & Payments</h4>
+          <p>Charges, invoices, payment method changes</p>
+        </div>
+      </div>
+      <div class="topic-card">
+        <div class="t-icon">🔁</div>
+        <div>
+          <h4>Refund Requests</h4>
+          <p>Refund eligibility, request status, processing time</p>
+        </div>
+      </div>
+      <div class="topic-card">
+        <div class="t-icon">📡</div>
+        <div>
+          <h4>Broadcast Issues</h4>
+          <p>Posting problems, credits, visibility questions</p>
+        </div>
+      </div>
+      <div class="topic-card">
+        <div class="t-icon">🚦</div>
+        <div>
+          <h4>Bonus Visits</h4>
+          <p>Submitting your link, delivery timeline, tracking</p>
+        </div>
+      </div>
+      <div class="topic-card">
+        <div class="t-icon">🤝</div>
+        <div>
+          <h4>Affiliate / JV</h4>
+          <p>WarriorPlus commission, partnerships, promotions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="response-note">
+    <strong>⏱️ Response Time:</strong> Our support team typically responds within <strong>24–48 hours</strong> on business days. For faster response, include your order ID and a clear description of your issue in your first email. VIP members receive priority support.
+  </div>
+
+</main>
+
+<footer>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+    <a href="refund-policy.html">Refund Policy</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <p style="margin-top:16px;">© 2026 Bzillion.Club. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
