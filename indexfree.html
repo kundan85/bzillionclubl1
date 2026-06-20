@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bzillion.Club VIP — 1-Day Free Trial. Broadcast to 100,000+ Buyers Today.</title>
+  <meta name="description" content="Get VIP access to 100,000+ active buyers for free today. One daily broadcast. 1,000 free targeted visits. No algorithms. Real results."/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--red:#cc0000;--red-bright:#ff1a1a;--gold:#c9a84c;--gold-light:#e8c97a;--dark:#080808;--dark2:#0f0f0f;--dark3:#161616;--dark4:#1e1e1e;--border:#252525;--white:#f5f0eb;--muted:#777;--text:#c8c0b8;--green:#22c55e;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    html{scroll-behavior:smooth;}
+    body{background:var(--dark);color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.7;overflow-x:hidden;}
+    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:1000;opacity:0.4;}
+    .topbar{background:var(--red);text-align:center;padding:10px 20px;font-family:'Oswald',sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--white);}
+    .topbar span{color:var(--gold-light);}
+    header{background:var(--dark2);border-bottom:1px solid var(--border);padding:16px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+    .logo{font-family:'Oswald',sans-serif;font-size:26px;font-weight:700;color:var(--white);text-decoration:none;letter-spacing:3px;text-transform:uppercase;}
+    .logo em{color:var(--red);font-style:normal;}
+    .header-trust{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:20px;flex-wrap:wrap;}
+    .header-trust span{display:flex;align-items:center;gap:6px;}
+    .dot{width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+    .hero{position:relative;padding:100px 40px 80px;text-align:center;overflow:hidden;}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(204,0,0,0.15) 0%,transparent 65%),radial-gradient(ellipse 40% 30% at 20% 80%,rgba(201,168,76,0.05) 0%,transparent 50%),var(--dark);}
+    .hero-lines{position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 80px,rgba(255,255,255,0.015) 80px,rgba(255,255,255,0.015) 81px);}
+    .hero-content{position:relative;z-index:2;max-width:900px;margin:0 auto;}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;background:rgba(204,0,0,0.1);border:1px solid rgba(204,0,0,0.3);border-radius:2px;padding:6px 16px;font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--red-bright);margin-bottom:32px;}
+    .eyebrow::before{content:'';width:6px;height:6px;background:var(--red-bright);border-radius:50%;}
+    .hero h1{font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(40px,7vw,86px);line-height:1;text-transform:uppercase;letter-spacing:1px;color:var(--white);margin-bottom:8px;}
+    .hero h1 .accent{color:var(--red);display:block;}
+    .hero h1 .gold{color:var(--gold-light);}
+    .hero-divider{width:60px;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));margin:28px auto;}
+    .hero-sub{font-family:'Source Serif 4',serif;font-size:clamp(17px,2.5vw,21px);color:var(--text);max-width:660px;margin:0 auto 40px;line-height:1.75;}
+    .hero-sub strong{color:var(--white);font-weight:600;}
+    .trial-price-wrap{display:inline-flex;flex-direction:column;align-items:center;margin-bottom:36px;background:var(--dark3);border:1px solid var(--border);border-top:3px solid var(--red);padding:24px 40px;}
+    .trial-label{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+    .trial-amount{font-family:'Oswald',sans-serif;font-size:70px;font-weight:700;color:var(--gold-light);line-height:1;letter-spacing:2px;}
+    .trial-sub{font-size:14px;color:var(--muted);margin-top:4px;letter-spacing:1px;}
+    .trial-sub span{color:var(--white);font-weight:600;}
+    .trial-badge{display:inline-block;background:var(--red);color:var(--white);font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:4px 14px;margin-top:10px;}
+    .btn-primary{display:inline-block;background:var(--red);color:var(--white);font-family:'Oswald',sans-serif;font-weight:600;font-size:clamp(16px,2.5vw,20px);letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:20px 48px;border:none;cursor:pointer;transition:transform 0.2s;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));box-shadow:0 6px 32px rgba(204,0,0,0.4);}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 40px rgba(204,0,0,0.55);}
+    .btn-primary.gold-btn{background:linear-gradient(135deg,var(--gold) 0%,var(--gold-light) 50%,var(--gold) 100%);color:#1a0f00;box-shadow:0 6px 32px rgba(201,168,76,0.35);}
+    .btn-primary.gold-btn:hover{box-shadow:0 10px 40px rgba(201,168,76,0.5);}
+    .btn-sub{display:block;font-size:13px;color:var(--muted);margin-top:12px;letter-spacing:0.5px;}
+    .trust-strip{background:var(--dark2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:20px 40px;}
+    .trust-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap;}
+    .trust-item{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted);}
+    .trust-item .icon{font-size:20px;}
+    .trust-item strong{color:var(--white);font-size:16px;display:block;}
+    section{padding:80px 40px;}
+    .container{max-width:900px;margin:0 auto;}
+    .section-eyebrow{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--red);margin-bottom:14px;}
+    .section-title{font-family:'Oswald',sans-serif;font-size:clamp(30px,4.5vw,52px);font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--white);line-height:1.05;margin-bottom:24px;}
+    .section-title .red{color:var(--red);}
+    .section-title .gold{color:var(--gold-light);}
+    .lead{font-family:'Source Serif 4',serif;font-size:18px;color:var(--text);max-width:680px;line-height:1.8;}
+    .problem{background:var(--dark2);}
+    .pain-list{margin-top:40px;display:flex;flex-direction:column;gap:2px;}
+    .pain-item{background:var(--dark3);border:1px solid var(--border);border-left:3px solid var(--red);padding:20px 24px;display:flex;gap:16px;align-items:flex-start;}
+    .pain-icon{font-size:22px;flex-shrink:0;margin-top:2px;}
+    .pain-item h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:18px;color:var(--white);margin-bottom:4px;}
+    .pain-item p{font-size:14px;color:var(--muted);margin:0;line-height:1.6;}
+    .solution{background:var(--dark);}
+    .solution-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:40px;}
+    @media(max-width:640px){.solution-grid{grid-template-columns:1fr;}}
+    .sol-card{background:var(--dark3);border:1px solid var(--border);padding:28px;transition:border-color 0.2s,transform 0.2s;}
+    .sol-card:hover{border-color:var(--gold);transform:translateY(-2px);}
+    .sol-card .s-icon{font-size:32px;margin-bottom:14px;}
+    .sol-card .tag{display:inline-block;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.2);color:var(--gold-light);font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:3px 10px;margin-bottom:12px;font-family:'Oswald',sans-serif;}
+    .sol-card h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:19px;color:var(--white);margin-bottom:8px;}
+    .sol-card p{font-size:14px;color:var(--muted);line-height:1.7;margin:0;}
+    .whatyouget{background:var(--dark2);}
+    .benefits-wrap{margin-top:40px;background:var(--dark3);border:1px solid var(--border);overflow:hidden;}
+    .benefit-row{display:grid;grid-template-columns:56px 1fr auto;align-items:center;gap:20px;padding:20px 24px;border-bottom:1px solid var(--border);transition:background 0.2s;}
+    .benefit-row:last-child{border-bottom:none;}
+    .benefit-row:hover{background:rgba(255,255,255,0.02);}
+    .b-num{font-family:'Oswald',sans-serif;font-size:28px;font-weight:700;color:var(--border);text-align:center;}
+    .b-body h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;color:var(--white);margin-bottom:3px;}
+    .b-body p{font-size:13px;color:var(--muted);margin:0;}
+    .b-badge{font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;padding:4px 12px;white-space:nowrap;flex-shrink:0;}
+    .b-badge.included{background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);color:#4ade80;}
+    .b-badge.bonus{background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.3);color:var(--gold-light);}
+    .reviews{background:var(--dark);}
+    .tp-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,182,122,0.08);border:1px solid rgba(0,182,122,0.2);border-radius:3px;padding:6px 14px;font-size:12px;color:#4ade80;font-family:'Oswald',sans-serif;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:24px;}
+    .tp-badge::before{content:'✓';}
+    .review-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;}
+    @media(max-width:640px){.review-grid{grid-template-columns:1fr;}}
+    .review-card{background:var(--dark3);border:1px solid var(--border);padding:28px;}
+    .review-stars{color:#00b67a;font-size:16px;letter-spacing:2px;margin-bottom:12px;}
+    .review-text{font-family:'Source Serif 4',serif;font-style:italic;font-size:15px;color:var(--text);line-height:1.7;margin-bottom:16px;}
+    .review-author{font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:1px;color:var(--muted);}
+    .review-author strong{color:var(--gold-light);}
+    .proof{background:var(--dark2);position:relative;overflow:hidden;}
+    .proof::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 50% 50%,rgba(204,0,0,0.05) 0%,transparent 70%);}
+    .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:40px;position:relative;}
+    @media(max-width:500px){.stats-grid{grid-template-columns:1fr;}}
+    .stat-box{background:var(--dark3);border:1px solid var(--border);padding:36px 24px;text-align:center;}
+    .stat-num{font-family:'Oswald',sans-serif;font-size:clamp(38px,5vw,56px);font-weight:700;color:var(--red-bright);line-height:1;letter-spacing:1px;}
+    .stat-label{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.5;}
+    .stat-label strong{color:var(--text);display:block;font-size:14px;margin-bottom:2px;}
+    .trial-section{background:var(--dark);}
+    .trial-card{max-width:680px;margin:40px auto 0;background:var(--dark3);border:1px solid var(--border);border-top:3px solid var(--red);overflow:hidden;position:relative;}
+    .trial-card::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(204,0,0,0.06) 0%,transparent 70%);}
+    .trial-best{background:var(--red);color:var(--white);font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;text-align:center;padding:8px;font-weight:600;}
+    .trial-body{padding:36px;position:relative;z-index:2;}
+    .trial-name{font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--muted);margin-bottom:16px;text-align:center;}
+    .trial-price-center{text-align:center;margin-bottom:8px;}
+    .t-big{font-family:'Oswald',sans-serif;font-size:80px;font-weight:700;color:var(--gold-light);line-height:1;}
+    .t-period{font-size:20px;color:var(--muted);}
+    .t-then{font-size:14px;color:var(--muted);margin-bottom:6px;text-align:center;}
+    .t-then strong{color:var(--white);}
+    .t-saving{display:inline-block;background:rgba(204,0,0,0.12);border:1px solid rgba(204,0,0,0.25);color:var(--red-bright);font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;padding:4px 14px;margin-bottom:28px;}
+    .trial-features{display:flex;flex-direction:column;gap:10px;margin-bottom:28px;}
+    .tf-row{display:flex;align-items:center;gap:10px;font-size:15px;color:var(--text);}
+    .tf-check{color:#4ade80;font-size:14px;flex-shrink:0;}
+    .tf-row strong{color:var(--white);}
+    .trial-note{font-size:12px;color:var(--muted);margin-top:14px;text-align:center;line-height:1.6;}
+    .howitworks{background:var(--dark2);}
+    .steps-timeline{margin-top:40px;position:relative;}
+    .steps-timeline::before{content:'';position:absolute;left:28px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,var(--red) 0%,var(--gold) 50%,transparent 100%);}
+    .step-item{display:flex;gap:28px;padding:0 0 36px;position:relative;}
+    .step-item:last-child{padding-bottom:0;}
+    .step-circle{width:56px;height:56px;border-radius:50%;background:var(--dark3);border:2px solid var(--red);display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:var(--red);flex-shrink:0;position:relative;z-index:2;}
+    .step-content{padding-top:12px;}
+    .step-content h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:20px;color:var(--white);margin-bottom:6px;}
+    .step-content p{font-size:14px;color:var(--muted);line-height:1.7;margin:0;}
+    .urgency{background:linear-gradient(135deg,#1a0000 0%,var(--dark) 100%);border-top:1px solid rgba(204,0,0,0.3);border-bottom:1px solid rgba(204,0,0,0.3);text-align:center;}
+    .urgency-box{background:var(--dark3);border:1px solid rgba(204,0,0,0.2);max-width:580px;margin:24px auto 32px;padding:20px 28px;}
+    .urgency-box p{font-size:15px;color:var(--text);margin:0;line-height:1.7;}
+    .urgency-box p strong{color:var(--gold-light);}
+    .faq{background:var(--dark);}
+    .faq-list{margin-top:36px;display:flex;flex-direction:column;gap:2px;}
+    .faq-item{background:var(--dark3);border:1px solid var(--border);}
+    .faq-item.open{border-color:rgba(204,0,0,0.2);}
+    .faq-q{width:100%;background:none;border:none;color:var(--white);font-family:'DM Sans',sans-serif;font-weight:600;font-size:16px;padding:22px 24px;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;}
+    .faq-q:hover{color:var(--gold-light);}
+    .faq-arrow{font-size:20px;color:var(--red);flex-shrink:0;transition:transform 0.3s;}
+    .faq-item.open .faq-arrow{transform:rotate(45deg);}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height 0.35s ease;}
+    .faq-item.open .faq-a{max-height:300px;}
+    .faq-a-inner{padding:0 24px 20px;font-size:15px;color:var(--muted);line-height:1.8;border-top:1px solid var(--border);padding-top:16px;}
+    .faq-a-inner strong{color:var(--text);}
+    .final-cta{background:var(--dark2);border-top:1px solid var(--border);text-align:center;padding:100px 40px;position:relative;overflow:hidden;}
+    .final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(201,168,76,0.04) 0%,transparent 70%);}
+    .final-cta .container{position:relative;}
+    .final-cta h2{font-family:'Oswald',sans-serif;font-size:clamp(32px,5vw,60px);font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--white);margin-bottom:16px;line-height:1.1;}
+    .final-cta p{font-family:'Source Serif 4',serif;font-size:18px;color:var(--text);max-width:580px;margin:0 auto 40px;line-height:1.8;}
+    .ps{margin-top:36px;font-size:14px;color:var(--muted);max-width:560px;margin-left:auto;margin-right:auto;line-height:1.8;}
+    .ps strong{color:var(--gold-light);}
+    footer{background:#050505;border-top:1px solid var(--border);padding:50px 40px 30px;font-size:13px;color:#555;}
+    .footer-container{max-width:900px;margin:0 auto;}
+    .disclaimer-box{background:var(--dark3);border:1px solid var(--border);padding:20px 24px;margin-bottom:16px;font-size:12px;color:#555;line-height:1.8;}
+    .disclaimer-box h5{font-family:'Oswald',sans-serif;letter-spacing:2px;font-size:11px;text-transform:uppercase;color:#444;margin-bottom:10px;}
+    .footer-links{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin:24px 0 12px;}
+    .footer-links a{color:#555;text-decoration:none;font-size:13px;transition:color 0.2s;}
+    .footer-links a:hover{color:var(--white);}
+    .footer-copy{text-align:center;color:#444;font-size:12px;}
+    .wplus_spdisclaimer{font-size:12px;color:#555;margin-bottom:16px;}
+    .sticky-bar{position:fixed;bottom:0;left:0;right:0;background:var(--dark2);border-top:2px solid var(--red);padding:14px 24px;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;z-index:999;transform:translateY(100%);transition:transform 0.4s ease;}
+    .sticky-bar.visible{transform:translateY(0);}
+    .sticky-bar p{font-family:'Oswald',sans-serif;font-size:16px;letter-spacing:1px;color:var(--white);}
+    .sticky-bar p span{color:var(--gold-light);}
+    .sticky-bar a{background:var(--red);color:var(--white);font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:10px 24px;white-space:nowrap;transition:background 0.2s;}
+    .sticky-bar a:hover{background:var(--red-bright);}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+    .hero-content>*{animation:fadeUp 0.7s ease both;}
+    .eyebrow{animation-delay:0.1s}.hero h1{animation-delay:0.2s}.hero-divider{animation-delay:0.3s}.hero-sub{animation-delay:0.4s}.trial-price-wrap{animation-delay:0.5s}.hero .btn-primary{animation-delay:0.6s}
+    @media(max-width:640px){header{padding:16px 20px;}section{padding:60px 20px;}.hero{padding:70px 20px 60px;}.trial-body{padding:24px 20px;}.benefit-row{grid-template-columns:40px 1fr;}.b-badge{display:none;}.trust-strip{padding:16px 20px;}footer{padding:40px 20px 24px;}}
+  </style>
+</head>
+<body>
+<div class="sticky-bar" id="stickyBar">
+  <p>VIP Trial — <span>24-Hour Free Access</span></p>
+  <a href="https://whop.com/checkout/plan_ZJW4O4n3Ncit9">START FREE TRIAL →</a>
+</div>
+<div class="topbar">⚡ Limited Launch — <span>1-Day Free Trial</span> — VIP Access + 1,000 Free Targeted Visits</div>
+<header>
+  <a href="#" class="logo">Bzillion<em>.</em>Club</a>
+  <div class="header-trust">
+    <span><span class="dot"></span> 100,000+ Active Members</span>
+    <span>⭐ Verified on Trustpilot</span>
+    <span>🔒 Secure Checkout</span>
+  </div>
+</header>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <div class="eyebrow">1-Day Free Trial — Cancel Anytime</div>
+    <h1>100,000+ Buyers.<br/><span class="accent">One Broadcast.</span><span class="gold" style="font-size:0.55em;letter-spacing:3px;margin-top:10px;">Daily. Direct. No Algorithm.</span></h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">Stop paying for traffic that scrolls past you. Bzillion.Club puts your message directly on the dashboard of <strong>100,000+ active entrepreneurs</strong> who log in every day looking for offers to act on. Try it for <strong>free today</strong> — and get <strong>1,000 real targeted visits</strong> as a bonus.</p>
+    <div class="trial-price-wrap">
+      <div class="trial-label">24-Hour VIP Pass</div>
+      <div class="trial-amount">FREE</div>
+      <div class="trial-sub">then <span>$15/year</span></div>
+      <div class="trial-badge">No Risk — Cancel Before Tomorrow</div>
+    </div>
+    <br><br>
+    <a href="https://whop.com/checkout/plan_ZJW4O4n3Ncit9" class="btn-primary gold-btn">Start My 1-Day Free Trial + Get 1,000 Visits →</a>
+    <span class="btn-sub">🔒 Secure checkout via WHOP &nbsp;|&nbsp; Instant access &nbsp;|&nbsp; No hidden fees</span>
+  </div>
+</section>
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="icon">👥</span><div><strong>100,000+</strong>Active Members</div></div>
+    <div class="trust-item"><span class="icon">📣</span><div><strong>6.9M+</strong>Ad Clicks Processed</div></div>
+    <div class="trust-item"><span class="icon">🎁</span><div><strong>1,000</strong>Free Visits Included</div></div>
+    <div class="trust-item"><span class="icon">⭐</span><div><strong>156+</strong>Trustpilot Reviews</div></div>
+  </div>
+</div>
+<section class="problem">
+  <div class="container">
+    <div class="section-eyebrow">Why Your Traffic Isn't Converting</div>
+    <h2 class="section-title">The Real Reason<br/>Your Ads <span class="red">Aren't Working</span></h2>
+    <p class="lead">It's not your offer. It's not your copy. It's your audience. You're paying to reach people who have no intention of buying anything today.</p>
+    <div class="pain-list">
+      <div class="pain-item"><div class="pain-icon">💸</div><div><h4>Facebook & Google — You Pay to Be Ignored</h4><p>You're interrupting people scrolling for entertainment. CPCs keep rising. Conversions keep dropping. The algorithm takes your money whether it works or not.</p></div></div>
+      <div class="pain-item"><div class="pain-icon">📉</div><div><h4>Email Lists — Open Rates Are Dying</h4><p>Your list opens at 12–18% on a good day. The buyers who were once active have moved on. You're spending time emailing people who aren't listening anymore.</p></div></div>
+      <div class="pain-item"><div class="pain-icon">🎰</div><div><h4>Social Media — Algorithm Roulette</h4><p>You post consistently. 3% of followers see it. You boost it. Still nothing. You can't build a business on a platform that hides your content unless you pay.</p></div></div>
+    </div>
+  </div>
+</section>
+<section class="solution">
+  <div class="container">
+    <div class="section-eyebrow">The Bzillion Difference</div>
+    <h2 class="section-title">A Community That Logs In<br/><span class="gold">Ready to Buy</span></h2>
+    <p class="lead">Bzillion.Club members aren't scrolling for entertainment. They show up every day specifically to discover offers, click ads, and act on opportunities. This changes everything.</p>
+    <div class="solution-grid">
+      <div class="sol-card"><div class="tag">Daily Broadcast</div><div class="s-icon">📡</div><h4>One Powerful Broadcast Every 24 Hours</h4><p>Post one message daily to every active member's dashboard. No algorithm decides who sees it. Everyone does. The 1-per-day rule keeps the feed clean — your message gets respected, not buried.</p></div>
+      <div class="sol-card"><div class="tag">Real Audience</div><div class="s-icon">🎯</div><h4>100,000+ Active Buyers — Not Bots</h4><p>Every member is verified. Every click is real. These are entrepreneurs already spending money online — on tools, memberships, and affiliate offers exactly like yours.</p></div>
+      <div class="sol-card"><div class="tag">Earn While You Advertise</div><div class="s-icon">💰</div><h4>Your Membership Can Pay For Itself</h4><p>Earn $0.05 per direct referral. View PTC ads for credits. Earn daily login bonuses. Your membership could pay for itself before your free trial is even over.</p></div>
+      <div class="sol-card"><div class="tag">Direct Access</div><div class="s-icon">🤝</div><h4>Private Message Any of 100K+ Members</h4><p>VIP members can message any member directly. Find JV partners, follow up with prospects, and build real business relationships — personally, not through an algorithm.</p></div>
+    </div>
+  </div>
+</section>
+<section class="whatyouget">
+  <div class="container">
+    <div class="section-eyebrow">Your VIP Trial Includes</div>
+    <h2 class="section-title">Everything You Unlock<br/>For <span class="gold">Free Today</span></h2>
+    <p class="lead">Full VIP access from day one. No locked features. No upsells required to use the core platform.</p>
+    <div class="benefits-wrap">
+      <div class="benefit-row"><div class="b-num">01</div><div class="b-body"><h4>Daily Broadcast to 100,000+ Members</h4><p>One message per day delivered directly to every active member's dashboard — no algorithm filter</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">02</div><div class="b-body"><h4>Private Messaging — Any Member</h4><p>Send direct messages to any of 100K+ members for networking, JV deals, and follow-ups</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">03</div><div class="b-body"><h4>PTC Ad Posting & Earning</h4><p>Post your own Paid-to-Click ads or earn by viewing other members' ads for passive credits</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">04</div><div class="b-body"><h4>Referral Commission — $0.05 Per Sign-Up</h4><p>Earn on every direct referral, paid weekly in USDC. Minimum withdrawal just $10</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">05</div><div class="b-body"><h4>25% Upgrade Commission on Referrals</h4><p>When your referrals upgrade to VIP or Elite, you earn 25% of their membership fee automatically</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">06</div><div class="b-body"><h4>Daily Login Bonus</h4><p>Earn credits simply by logging in every day — consistent activity compounds over your membership</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">07</div><div class="b-body"><h4>VIP Badge & Priority Support</h4><p>Instant credibility in the community and faster response when you need help</p></div><div class="b-badge included">Included</div></div>
+      <div class="benefit-row"><div class="b-num">08</div><div class="b-body"><h4>BONUS: 1,000 Targeted Visits to Your Link</h4><p>We manually send 1,000 real visits from active Bzillion members to any link you choose — delivered within 48–72 hours of joining</p></div><div class="b-badge bonus">🎁 Free Bonus</div></div>
+    </div>
+  </div>
+</section>
+<section class="reviews">
+  <div class="container">
+    <div class="section-eyebrow">Verified Reviews</div>
+    <h2 class="section-title">Real Members.<br/><span class="gold">Real Results on Trustpilot.</span></h2>
+    <div class="tp-badge">156+ Verified Reviews — trustpilot.com/review/bzillion.club</div>
+    <div class="review-grid">
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"This is a great worldwide platform to advertise your online business. I have made many sales and received many leads using this platform, and I highly recommend it."</div><div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"I already have made 3 withdrawals of $10 USD each. A good and reliable income-generating site with acceptable possibilities for advertising with numerous members."</div><div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"Payouts made on time. It's a very useful marketing tool. Fast and direct connection with active team members. Best platform to earn money and create ads."</div><div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div></div>
+      <div class="review-card"><div class="review-stars">★★★★★</div><div class="review-text">"BZILLION stood strong for an impressive amount of time. This platform works for anyone regardless of experience. It's the people you connect with that offer the true value here!"</div><div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div></div>
+    </div>
+    <p style="margin-top:20px;font-size:13px;color:var(--muted);text-align:center;">Read all reviews at <a href="https://www.trustpilot.com/review/bzillion.club" target="_blank" style="color:var(--gold-light);text-decoration:none;">trustpilot.com/review/bzillion.club →</a></p>
+  </div>
+</section>
+<section class="proof">
+  <div class="container">
+    <div class="section-eyebrow">Live Platform Data</div>
+    <h2 class="section-title">The Numbers Behind<br/>the <span class="red">Community</span></h2>
+    <p class="lead">Live figures from the Bzillion.Club platform — updated in real time, not estimates.</p>
+    <div class="stats-grid">
+      <div class="stat-box"><div class="stat-num">100K+</div><div class="stat-label"><strong>Verified Members</strong>Active entrepreneurs logging in daily</div></div>
+      <div class="stat-box"><div class="stat-num">6.9M+</div><div class="stat-label"><strong>Ad Hits Processed</strong>Real clicks from real people</div></div>
+      <div class="stat-box"><div class="stat-num">317+</div><div class="stat-label"><strong>Active Promotions</strong>Running successfully right now</div></div>
+    </div>
+  </div>
+</section>
+<section class="trial-section">
+  <div class="container">
+    <div class="section-eyebrow" style="text-align:center;">The Offer</div>
+    <h2 class="section-title" style="text-align:center;">Try Everything for<br/><span class="gold">Free Today</span></h2>
+    <div class="trial-card">
+      <div class="trial-best">🔥 Limited Launch — 1-Day Free Trial</div>
+      <div class="trial-body">
+        <div class="trial-name">VIP 24-Hour Pass</div>
+        <div class="trial-price-center"><span class="t-big">FREE</span></div>
+        <p class="t-then">Then <strong>$15/year</strong></p>
+        <div style="text-align:center;margin-bottom:24px;"><span class="t-saving">Cancel Anytime Before Tomorrow</span></div>
+        <div class="trial-features">
+          <div class="tf-row"><span class="tf-check">✓</span> Full VIP access — all features from day one</div>
+          <div class="tf-row"><span class="tf-check">✓</span> Daily broadcast to <strong>100,000+</strong> active members</div>
+          <div class="tf-row"><span class="tf-check">✓</span> Private messaging to any member</div>
+          <div class="tf-row"><span class="tf-check">✓</span> PTC ads, referral commissions, daily bonuses</div>
+          <div class="tf-row"><span class="tf-check">✓</span> <strong>25%</strong> upgrade commission on referrals</div>
+          <div class="tf-row" style="color:var(--gold-light);"><span style="color:var(--gold-light);">🎁</span> <strong style="color:var(--gold-light);">BONUS: 1,000 Free Targeted Visits to your link</strong></div>
+        </div>
+        <a href="https://whop.com/checkout/plan_ZJW4O4n3Ncit9" class="btn-primary gold-btn" style="display:block;text-align:center;">Claim My Free 24-Hour Pass + Get 1,000 Free Visits →</a>
+        <p class="trial-note">🔒 Secure checkout via WHOP &nbsp;·&nbsp; Instant access &nbsp;·&nbsp; Deactivate anytime from your dashboard</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="howitworks">
+  <div class="container">
+    <div class="section-eyebrow">Getting Started</div>
+    <h2 class="section-title">Sending Your First Broadcast<br/><span class="red">In Under 10 Minutes</span></h2>
+    <div class="steps-timeline">
+      <div class="step-item"><div class="step-circle">1</div><div class="step-content"><h4>Activate Your Free Trial on WHOP</h4><p>Click the button, complete secure checkout. Your account is created and credentials emailed instantly via our automated system. No waiting, no manual processing.</p></div></div>
+      <div class="step-item"><div class="step-circle">2</div><div class="step-content"><h4>Submit Your Link for 1,000 Bonus Visits</h4><p>Log in to your VIP dashboard and submit any link — your affiliate offer, sales page, or lead capture page. Your 1,000 real visits are delivered within 48–72 hours.</p></div></div>
+      <div class="step-item"><div class="step-circle">3</div><div class="step-content"><h4>Set Up Your USDC Wallet</h4><p>Go to Profile → Settings and add your USDC wallet address and network. Commission payouts process automatically every Sunday.</p></div></div>
+      <div class="step-item"><div class="step-circle">4</div><div class="step-content"><h4>Post Your First Daily Broadcast</h4><p>Write your best message — your affiliate link, your offer, your lead magnet. Post it. 100,000+ members see it on their dashboard. Track your clicks in real time.</p></div></div>
+    </div>
+  </div>
+</section>
+<section class="urgency">
+  <div class="container">
+    <div class="section-eyebrow">⚠️ Launch Pricing</div>
+    <h2 class="section-title">The Free Trial Is a<br/>Launch-Only Offer</h2>
+    <div class="urgency-box"><p>The <strong>1-day free trial</strong> and the <strong>1,000 free bonus visits</strong> are available exclusively during this launch window. Once this offer closes, new members join at the standard rate with no free period or bonus visits included. If you're reading this, the offer is still live — but it won't be forever.</p></div>
+    <a href="https://whop.com/checkout/plan_ZJW4O4n3Ncit9" class="btn-primary">Claim My Free 24-Hour Pass + 1,000 Free Visits →</a>
+  </div>
+</section>
+<section class="faq">
+  <div class="container">
+    <div class="section-eyebrow">Questions Answered</div>
+    <h2 class="section-title">Straight Answers.<br/><span class="red">No Fluff.</span></h2>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-q">What exactly is Bzillion.Club? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">Bzillion.Club is a community advertising platform where 100,000+ entrepreneurs and marketers connect, advertise their offers, and earn through referrals and daily activity. It is <strong>NOT</strong> an MLM, not a get-rich-quick scheme, and not an investment platform. It is a legitimate digital networking and advertising tool built specifically for online marketers.</div></div></div>
+      <div class="faq-item"><button class="faq-q">How is this different from Facebook Ads or solo ads? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">Facebook and solo ads deliver cold traffic — people with no intent to buy. Bzillion.Club members are a <strong>warm, pre-qualified community</strong> who log in every day specifically to find offers. The 1-per-day broadcast rule keeps feed quality high, so your message is actually read — not scrolled past.</div></div></div>
+      <div class="faq-item"><button class="faq-q">When do I receive my 1,000 bonus visits? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">After joining, submit your link via your VIP dashboard. All 1,000 visits are delivered <strong>manually from real, active Bzillion members</strong> within 48–72 hours. You can send them to any link — an affiliate offer, lead capture page, website, or sales funnel.</div></div></div>
+      <div class="faq-item"><button class="faq-q">What happens after the 1-day free trial? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">After your 24-hour free pass, your membership continues at just <strong>$15/year</strong> — a massive saving. Deactivate auto-renewal anytime from Profile → Settings before the trial ends to avoid being charged. No cancellation fees, no hidden charges.</div></div></div>
+      <div class="faq-item"><button class="faq-q">How are commissions paid? What is USDC? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">All payouts are made in <strong>USDC</strong> — a stable cryptocurrency pegged 1:1 to the US Dollar. You need a crypto wallet like Coinbase, Trust Wallet, or MetaMask. Payouts process automatically every Sunday. Minimum withdrawal is $10.</div></div></div>
+      <div class="faq-item"><button class="faq-q">I'm in India / Brazil. Can I join? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner"><strong>Tier 1</strong> (US, UK, Canada, Australia, most of Europe): Join immediately. <strong>Tier 2</strong> (India, Brazil, etc.): You may need to verify or upgrade. VPN usage is strictly prohibited. Contact admin@bzillion.club for region-specific questions before purchasing.</div></div></div>
+      <div class="faq-item"><button class="faq-q">How do affiliates promote this offer? <span class="faq-arrow">+</span></button><div class="faq-a"><div class="faq-a-inner">This offer is hosted on WHOP. Affiliates earn <strong>50% commission per sale</strong>. Low-ticket entry point with monthly recurring back-end. Apply through WHOP to get your affiliate link.</div></div></div>
+    </div>
+  </div>
+</section>
+<section class="final-cta">
+  <div class="container">
+    <h2>100,000+ Buyers Are<br/>Online Right Now.<br/><span style="color:var(--gold-light);">Are You In?</span></h2>
+    <p>For absolutely zero risk today, you get a full 24-hour pass of direct access to 100,000+ active buyers, 1,000 real targeted visits to your offer, and the chance to see if Bzillion.Club works for your business. Real results possible from day one.</p>
+    <a href="https://whop.com/checkout/plan_ZJW4O4n3Ncit9" class="btn-primary gold-btn">Claim My Free 24-Hour Pass — Get 1,000 Free Visits →</a>
+    <span class="btn-sub">🔒 Secure · Instant Access · Cancel Anytime · No Hidden Fees</span>
+    <p class="ps"><strong>P.S.</strong> The 1-day free trial and 1,000 free bonus visits are strictly a launch offer. Once this window closes, new members join at the full rate with no bonus. You can cancel before tomorrow for any reason — but we think you'll stay once you see your first broadcast results.</p>
+  </div>
+</section>
+<footer>
+  <div class="footer-container">
+    <div class="wplus_spdisclaimer"></div>
+    <div class="disclaimer-box" style="margin-top:20px;"><h5>Earnings & Income Disclaimer</h5>Results mentioned are individual experiences. We make no income guarantees. Your results will vary based on your effort, strategy, market conditions, and individual circumstances. Bzillion.Club is a community advertising platform — not an investment vehicle, MLM, or guaranteed income program. Referral commissions depend entirely on your own promotional activity.</div>
+    <div class="disclaimer-box"><h5>Platform Disclaimer</h5>This website is not affiliated with Facebook, Google, Microsoft, or any other platform mentioned. All trademarks belong to their respective owners. Bzillion.Club operates under the laws of India, jurisdiction of Lucknow, Uttar Pradesh. All member statistics are live and updated in real time. All visits are delivered manually to ensure quality and compliance.</div>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="refund-policy.html">Refund Policy</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="https://www.trustpilot.com/review/bzillion.club" target="_blank">Trustpilot Reviews</a>
+    </div>
+    <p class="footer-copy">© 2026 Bzillion.Club (BB Enterprises). All rights reserved. &nbsp;|&nbsp; admin@bzillion.club</p>
+    <br><br>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const item=btn.closest('.faq-item');
+      const isOpen=item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+      if(!isOpen)item.classList.add('open');
+    });
+  });
+  const sticky=document.getElementById('stickyBar');
+  window.addEventListener('scroll',()=>{sticky.classList.toggle('visible',window.scrollY>600);});
+</script>
+</body>
+</html>
